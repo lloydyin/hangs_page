@@ -1,0 +1,121 @@
+[
+  {
+    "file": "images/coordinates_photos/Abu Dhabi.JPG",
+    "lat": 24.49492634,
+    "lng": 54.37125643,
+    "place": "Abu Dhabi",
+    "date": "09/05/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Alexandria.jpg",
+    "lat": 31.177930199722223,
+    "lng": 29.915375,
+    "place": "Alexandria",
+    "date": "01/08/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Aqaba.JPG",
+    "lat": 29.698617,
+    "lng": 35.396393,
+    "place": "Aqaba",
+    "date": "01/05/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Beijing.JPG",
+    "lat": 39.85105,
+    "lng": 116.67106,
+    "place": "Beijing",
+    "date": "09/09/2024"
+  },
+  {
+    "file": "images/coordinates_photos/BJTU.JPG",
+    "lat": 39.950847,
+    "lng": 116.33131,
+    "place": "BJTU",
+    "date": "06/20/2023"
+  },
+  {
+    "file": "images/coordinates_photos/Cairo.JPG",
+    "lat": 29.982474,
+    "lng": 31.133627,
+    "place": "Cairo",
+    "date": "12/31/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Dead Sea.JPG",
+    "lat": 31.694522222222222,
+    "lng": 35.57940277777778,
+    "place": "Dead Sea",
+    "date": "01/02/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Dublin.JPG",
+    "lat": 53.352899,
+    "lng": -6.261545,
+    "place": "Dublin",
+    "date": "03/17/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Guangzhou.JPG",
+    "lat": 23.113045,
+    "lng": 113.318507,
+    "place": "Guangzhou",
+    "date": "09/22/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Hongkong.JPG",
+    "lat": 22.293039,
+    "lng": 114.174247,
+    "place": "Hongkong",
+    "date": "09/19/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Hurghada.JPG",
+    "lat": 27.259281,
+    "lng": 33.822751,
+    "place": "Hurghada",
+    "date": "12/21/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Petra.jpg",
+    "lat": 30.338197699722222,
+    "lng": 35.430129299722225,
+    "place": "Petra",
+    "date": "01/04/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Qingdao.JPG",
+    "lat": 35.70545863963889,
+    "lng": 119.92826769358334,
+    "place": "Qingdao",
+    "date": "01/02/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Rizhao.jpg",
+    "lat": 35.693575,
+    "lng": 119.36334444444445,
+    "place": "Rizhao",
+    "date": "05/02/2023"
+  },
+  {
+    "file": "images/coordinates_photos/WadiRum.jpg",
+    "lat": 29.6508429,
+    "lng": 35.510607,
+    "place": "WadiRum",
+    "date": "01/05/2025"
+  },
+  {
+    "file": "images/coordinates_photos/Wicklow.jpg",
+    "lat": 52.979968,
+    "lng": -6.039164,
+    "place": "Wicklow",
+    "date": "10/26/2024"
+  },
+  {
+    "file": "images/coordinates_photos/Yangzhou.jpg",
+    "lat": 32.410105,
+    "lng": 119.416251,
+    "place": "Yangzhou",
+    "date": "10/04/2024"
+  }
+]
