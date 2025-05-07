@@ -61,11 +61,11 @@ def generate_photo_data(folder_path):
     return photo_data
 
 def main():
-    folder_path = r"D:\Study\Code\Person Website\images\coordinates_photos"  # 设置文件夹路径
+    folder_path = r"D:\Study\Code\Person_Website\images\coordinates_photos"  # 设置文件夹路径
     photo_data = generate_photo_data(folder_path)
     # 输出为JSON格式
     # print("const photoData = ", json.dumps(photo_data, indent=2))
-    with open('D:/Study/Code/Person Website/images/coordinates_photos/coordinates_photos.json', 'w', encoding='utf-8') as f:
+    with open('D:/Study/Code/Person_Website/images/coordinates_photos/coordinates_photos.json', 'w', encoding='utf-8') as f:
         json.dump(photo_data, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":

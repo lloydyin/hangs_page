@@ -77,6 +77,13 @@
     "date": "12/21/2024"
   },
   {
+    "file": "images/coordinates_photos/Jilin.jpeg",
+    "lat": 43.89307022083333,
+    "lng": 126.56932830805556,
+    "place": "Jilin",
+    "date": "10/04/2019"
+  },
+  {
     "file": "images/coordinates_photos/Petra.jpg",
     "lat": 30.338197699722222,
     "lng": 35.430129299722225,
@@ -96,6 +103,13 @@
     "lng": 119.36334444444445,
     "place": "Rizhao",
     "date": "05/02/2023"
+  },
+  {
+    "file": "images/coordinates_photos/Vladivostok.jpg",
+    "lat": 43.113193511944445,
+    "lng": 131.89163208,
+    "place": "Vladivostok",
+    "date": "06/15/2019"
   },
   {
     "file": "images/coordinates_photos/WadiRum.jpg",
