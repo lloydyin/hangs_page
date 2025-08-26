@@ -49,7 +49,7 @@ def generate_photo_data(folder_path):
             date = date_obj.strftime('%m/%d/%Y')
             # 获取对应的坐标信息
             #if file_name in coordinates:
-            temp_path = os.path.join("images/coordinates_photos/", file_name)
+            temp_path = os.path.join("/images/coordinates_photos/", file_name)
             data = {
                 "file": temp_path,
                 "lat": latitude,
