@@ -3570,7 +3570,7 @@ a.icon:hover img {
 }
 
 #viewer {
-	width: 100%; 
+	width: 100%;
 	aspect-ratio: 16/10;
 }
 
@@ -3586,5 +3586,3 @@ a.icon:hover img {
 	border-radius: 5px;
 	cursor: pointer;
 }
-
-
