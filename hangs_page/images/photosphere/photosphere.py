@@ -49,7 +49,7 @@ def generate_photo_data(folder_path):
             date = date_obj.strftime('%m/%d/%Y')
             # 获取对应的坐标信息
             #if file_name in coordinates:
-            temp_path = os.path.join("/images/photosphere/", file_name)
+            temp_path = os.path.join("images/photosphere/", file_name)
             place_name = os.path.splitext(file_name)[0]
             while os.path.splitext(place_name)[1]:
                 place_name = os.path.splitext(place_name)[0]
@@ -64,11 +64,11 @@ def generate_photo_data(folder_path):
     return photo_data
 
 def main():
-    folder_path = r"D:\Study\Code\Person_Website\images\photosphere"  # 设置文件夹路径
+    folder_path = r"D:\Study\Code\Person_Website\hangs_page\images\photosphere"  # 设置文件夹路径
     photo_data = generate_photo_data(folder_path)
     # 输出为JSON格式
     # print("const photoData = ", json.dumps(photo_data, indent=2))
-    with open('D:/Study/Code/Person_Website/images/photosphere/photosphere.json', 'w', encoding='utf-8') as f:
+    with open('D:/Study/Code/Person_Website/hangs_page/images/photosphere/photosphere.json', 'w', encoding='utf-8') as f:
         json.dump(photo_data, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 Folder PATH listing for volume ¹¤×÷&ÓéÀÖ
 Volume serial number is 326F-E84D
-D:\STUDY\CODE\PERSON_WEBSITE
+D:\STUDY\CODE\PERSON_WEBSITE\HANGS_PAGE
 |   index.html
 |   LICENSE.txt
 |   output.txt
@@ -183,11 +183,15 @@ D:\STUDY\CODE\PERSON_WEBSITE
 |           ._Screenshot_2024-12-27-07-14-32-335_com.android.browser-edit.JPG
 |           
 +---pages
-|       beyond.html
-|       CRall_20241217_044252077.PHOTOSPHERE.jpg
-|       photosphere.html
-|       research.html
-|       
+|   +---beyond
+|   |   |   beyond.html
+|   |   |   
+|   |   \---photosphere
+|   |           photosphere.html
+|   |           
+|   \---research
+|           research.html
+|           
 \---tables
         education.html
         experience.html

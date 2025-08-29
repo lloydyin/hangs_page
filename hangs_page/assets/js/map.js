@@ -4,7 +4,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-fetch('../images/coordinates_photos/coordinates_photos.json')
+fetch('images/coordinates_photos/coordinates_photos.json')
   .then(response => response.json())
   .then(photoData => {
     photoData.forEach(photo => {

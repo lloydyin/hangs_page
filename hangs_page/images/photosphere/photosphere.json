@@ -1,209 +1,202 @@
 [
   {
-    "file": "/images/photosphere/Above the Gaint Rock Bridge.jpg",
+    "file": "images/photosphere/Above the Gaint Rock Bridge.jpg",
     "lat": 29.810152777777777,
     "lng": 35.4562,
     "place": "Above the Gaint Rock Bridge",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Abu Simbel Temples.jpg",
+    "file": "images/photosphere/Abu Simbel Temples.jpg",
     "lat": 22.337401944444444,
     "lng": 31.626764166666668,
     "place": "Abu Simbel Temples",
     "date": "12/28/2024"
   },
   {
-    "file": "/images/photosphere/Ancient Roman amphitheater @Alexandria.jpg",
+    "file": "images/photosphere/Ancient Roman amphitheater @Alexandria.jpg",
     "lat": 31.194636111111112,
     "lng": 29.903866611111113,
     "place": "Ancient Roman amphitheater @Alexandria",
     "date": "01/08/2025"
   },
   {
-    "file": "/images/photosphere/Baron Empain Palace.jpg",
+    "file": "images/photosphere/Baron Empain Palace.jpg",
     "lat": 30.087483333333335,
     "lng": 31.330233333333332,
     "place": "Baron Empain Palace",
     "date": "12/30/2024"
   },
   {
-    "file": "/images/photosphere/BJTU 明湖.jpg",
+    "file": "images/photosphere/BJTU 明湖.jpg",
     "lat": 39.95092886111111,
     "lng": 116.3365288611111,
     "place": "BJTU 明湖",
     "date": "04/14/2023"
   },
   {
-    "file": "/images/photosphere/Cairo Citadel.jpg",
+    "file": "images/photosphere/Cairo Citadel.jpg",
     "lat": 30.028830555555555,
     "lng": 31.259833333333333,
     "place": "Cairo Citadel",
     "date": "12/31/2024"
   },
   {
-    "file": "/images/photosphere/Cliffs of Moher .jpg",
+    "file": "images/photosphere/Cliffs of Moher .jpg",
     "lat": 52.972908333333336,
     "lng": -9.430483333333333,
     "place": "Cliffs of Moher ",
     "date": "08/25/2025"
   },
   {
-    "file": "/images/photosphere/Cliffs of Moher.jpg",
+    "file": "images/photosphere/Cliffs of Moher.jpg",
     "lat": 52.973555555555556,
     "lng": -9.43066111111111,
     "place": "Cliffs of Moher",
     "date": "08/25/2025"
   },
   {
-    "file": "/images/photosphere/Gaint Rock Bridge.jpg",
+    "file": "images/photosphere/Gaint Rock Bridge.jpg",
     "lat": 29.810152777777777,
     "lng": 35.4562,
     "place": "Gaint Rock Bridge",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Giza.jpg",
+    "file": "images/photosphere/Giza.jpg",
     "lat": 29.97927222222222,
     "lng": 31.13572222222222,
     "place": "Giza",
     "date": "12/31/2024"
   },
   {
-    "file": "/images/photosphere/Hurghada.jpg",
+    "file": "images/photosphere/Hurghada.jpg",
     "lat": 27.254216944444444,
     "lng": 33.831603888888885,
     "place": "Hurghada",
     "date": "12/17/2024"
   },
   {
-    "file": "/images/photosphere/Jerash.jpg",
+    "file": "images/photosphere/Jerash.jpg",
     "lat": 32.27739611111111,
     "lng": 35.890771944444445,
     "place": "Jerash",
     "date": "01/01/2025"
   },
   {
-    "file": "/images/photosphere/Jordan.jpg",
+    "file": "images/photosphere/Jordan.jpg",
     "lat": 30.918819444444445,
     "lng": 35.69988333333333,
     "place": "Jordan",
     "date": "01/03/2025"
   },
   {
-    "file": "/images/photosphere/Luxor Temple.jpg",
+    "file": "images/photosphere/Luxor Temple.jpg",
     "lat": 25.699369444444443,
     "lng": 32.63883333333333,
     "place": "Luxor Temple",
     "date": "12/29/2024"
   },
   {
-    "file": "/images/photosphere/Petra (evening).jpg",
-    "lat": 30.33083388888889,
-    "lng": 35.46781861111111,
-    "place": "Petra (evening)",
-    "date": "01/03/2025"
-  },
-  {
-    "file": "/images/photosphere/Petra.jpg",
+    "file": "images/photosphere/Petra.jpg",
     "lat": 30.34641111111111,
     "lng": 35.433683333333335,
     "place": "Petra",
     "date": "01/04/2025"
   },
   {
-    "file": "/images/photosphere/Pyramids.jpg",
+    "file": "images/photosphere/Pyramids.jpg",
     "lat": 29.977116666666667,
     "lng": 31.132072222222224,
     "place": "Pyramids",
     "date": "12/31/2024"
   },
   {
-    "file": "/images/photosphere/Small Rock Bridge.jpg",
+    "file": "images/photosphere/Small Rock Bridge.jpg",
     "lat": 29.808619444444446,
     "lng": 35.45430833333333,
     "place": "Small Rock Bridge",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Sultan AI Nasir Nuhammad Mosque.jpg",
+    "file": "images/photosphere/Sultan AI Nasir Nuhammad Mosque.jpg",
     "lat": 30.029275,
     "lng": 31.26071388888889,
     "place": "Sultan AI Nasir Nuhammad Mosque",
     "date": "12/31/2024"
   },
   {
-    "file": "/images/photosphere/Sunset of Cairo.jpg",
+    "file": "images/photosphere/Sunset of Cairo.jpg",
     "lat": 30.028536111111112,
     "lng": 31.259280555555556,
     "place": "Sunset of Cairo",
     "date": "12/31/2024"
   },
   {
-    "file": "/images/photosphere/The Burren.jpg",
+    "file": "images/photosphere/The Burren.jpg",
     "lat": 53.06919444444444,
     "lng": -9.35746111111111,
     "place": "The Burren",
     "date": "08/25/2025"
   },
   {
-    "file": "/images/photosphere/The Treasury @Petra.jpg",
+    "file": "images/photosphere/The Treasury @Petra.jpg",
     "lat": 30.32245,
     "lng": 35.451661111111115,
     "place": "The Treasury @Petra",
     "date": "01/04/2025"
   },
   {
-    "file": "/images/photosphere/Trim Castle.jpg",
+    "file": "images/photosphere/Trim Castle.jpg",
     "lat": 53.55438888888889,
     "lng": -6.789669444444445,
     "place": "Trim Castle",
     "date": "05/04/2025"
   },
   {
-    "file": "/images/photosphere/Valley of the Kings.PHOTOSPHERE.jpg",
+    "file": "images/photosphere/Valley of the Kings.PHOTOSPHERE.jpg",
     "lat": 25.741591666666668,
     "lng": 32.602466666666665,
     "place": "Valley of the Kings",
     "date": "12/29/2024"
   },
   {
-    "file": "/images/photosphere/Wadi Rum.1.jpg",
+    "file": "images/photosphere/Wadi Rum.1.jpg",
     "lat": 29.528655555555556,
     "lng": 35.459002777777776,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Wadi Rum.2.jpg",
+    "file": "images/photosphere/Wadi Rum.2.jpg",
     "lat": 29.527744444444444,
     "lng": 35.4587,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Wadi Rum.3.jpg",
+    "file": "images/photosphere/Wadi Rum.3.jpg",
     "lat": 29.527744444444444,
     "lng": 35.4587,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Wadi Rum.4.jpg",
+    "file": "images/photosphere/Wadi Rum.4.jpg",
     "lat": 29.765030555555555,
     "lng": 35.47060555555556,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/Wadi Rum.jpg",
+    "file": "images/photosphere/Wadi Rum.jpg",
     "lat": 29.627311111111112,
     "lng": 35.50028888888889,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "/images/photosphere/颐和园.jpg",
+    "file": "images/photosphere/颐和园.jpg",
     "lat": 39.99547777777778,
     "lng": 116.27326388888889,
     "place": "颐和园",

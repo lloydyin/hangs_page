@@ -20,7 +20,7 @@ previewModal.addEventListener('click', (e)=>{
 	}
 });
 
-fetch('../images/photosphere/photosphere.json')
+fetch('images/photosphere/photosphere.json')
 .then(res=>res.json())
 .then(photoData=>{
 	photoData.forEach(photo=>{
