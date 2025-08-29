@@ -7,6 +7,7 @@
 <html>
 
 <head>
+    <base href="/hangs_page/">
     <title>Hang Yin's Homepage</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -20,7 +21,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 
+    <script type="importmap">
+        {
+           "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+                "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+            }
+        }
+    </script>
 </head>
 
 <body class="is-preload">
@@ -32,13 +42,13 @@
             <h1><strong>Hang Yin (殷航)</strong><br /></h1>
             <nav class="sidebar-nav">
                 <ul class="vertical-links">
-					<br />
-					<a href="/index.html"> Home</a><br />
-					<a href="/pages/research.html"> Research</a><br />
-					<a href="/pages/beyond.html"> Beyond Research</a><br />
-                    <a href="/pages/photoSphere.html"> PhotoSphere</a><br />
-					<a href="/pages/rour.html"> Social</a><br />
-				</ul>
+                    <br />
+                    <a href="/index.html"> Home</a><br />
+                    <a href="/pages/research/research.html"> Research</a><br />
+                    <a href="/pages/beyond/beyond.html"> Beyond Research</a><br />
+                    <a href="/pages/beyond/photoSphere/photoSphere.html"> PhotoSphere</a><br />
+                    <a href="/pages/rour.html"> Social</a><br />
+                </ul>
             </nav>
         </div>
     </header>
@@ -54,22 +64,33 @@
             <h1>Beyond Research</h1>
             Although I consider myself quite a homebody, my family and friends have taken me on many trips over the
             years. Thanks to them, I've had the chance to explore a variety of places and experiences I might not have
-            sought out on my own.<br>
+            sought out on my own.
             <br>
+            <br>
+            <hr style="margin: 1px 0;">
 
             <h2>🗺️Footprints and Reflections</h2>
-
-            <head>
-                <meta charset="utf-8" />
-                <title>Photo Map</title>
-
-            </head>
-
             <div id="map"></div>
             <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
             <script src="/assets/js/map.js"></script>
             <br>
-            <a href="/pages/photosphere.html"> PhotoSphere</a><br />
+            <hr style="margin: 1px 0;">
+
+            <h2>🔮<a href="/pages/beyond/photoSphere/photoSphere.html"> PhotoSphere</a> 👈Click!</h2>
+            <div id="viewer""></div>
+
+            <script type="module">
+                import { Viewer } from '@photo-sphere-viewer/core';
+                const viewer = new Viewer({
+                    container: document.querySelector('#viewer'),
+                    panorama: '/images/photosphere/Cairo Citadel.jpg',
+                    defaultYaw: Math.PI * 0.685,       // 初始水平角，单位：弧度
+                    defaultPitch: Math.PI * -0.1,               // 初始垂直角，单位：弧度
+                    defaultZoomLvl: 0             // 初始缩放等级（0-100）
+                }); 
+            </script>
+            <br>
+            <hr style="margin: 1px 0;">
 
             <h2>📷Wellsprings of Passion</h2>
             <div class="row">
@@ -109,9 +130,11 @@
                     <button class="nav-btn next-btn">&gt;</button>
                 </div>
             </div>
+            <hr style="margin: 1px 0;">
 
             <h2>🎮Echoes of Play</h2>
             <div id="games"></div>
+            <hr style="margin: 1px 0;">
     </div>
 
     <!-- Footer -->
