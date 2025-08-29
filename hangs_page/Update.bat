@@ -1,5 +1,5 @@
 @echo off
-cd D:\Study\Code\Person_Website
+cd D:\Study\Code\Person_Website\hangs_page
 
 :: 添加所有文件
 git add .
