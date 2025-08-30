@@ -98,6 +98,13 @@
     "date": "10/04/2019"
   },
   {
+    "file": "images/coordinates_photos/Louvre Abu Dhabi Dragon--Warring States Period--China.jpg",
+    "lat": 24.53325,
+    "lng": 54.39904722222222,
+    "place": "Louvre Abu Dhabi Dragon--Warring States Period--China",
+    "date": "08/30/2025"
+  },
+  {
     "file": "images/coordinates_photos/Petra.jpg",
     "lat": 30.338197699722222,
     "lng": 35.430129299722225,
@@ -117,6 +124,13 @@
     "lng": 119.36334444444445,
     "place": "Rizhao",
     "date": "05/02/2023"
+  },
+  {
+    "file": "images/coordinates_photos/Sheikh Zayed Grand Mosque.jpg",
+    "lat": 24.41238611111111,
+    "lng": 54.47600833333333,
+    "place": "Sheikh Zayed Grand Mosque",
+    "date": "08/30/2025"
   },
   {
     "file": "images/coordinates_photos/The Burren.jpg",
