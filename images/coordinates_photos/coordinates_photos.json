@@ -98,10 +98,10 @@
     "date": "10/04/2019"
   },
   {
-    "file": "images/coordinates_photos/Louvre Abu Dhabi Dragon--Warring States Period--China.jpg",
+    "file": "images/coordinates_photos/Louvre Abu Dhabi (Dragon--Warring States Period--China).jpg",
     "lat": 24.53325,
     "lng": 54.39904722222222,
-    "place": "Louvre Abu Dhabi Dragon--Warring States Period--China",
+    "place": "Louvre Abu Dhabi (Dragon--Warring States Period--China)",
     "date": "08/30/2025"
   },
   {
@@ -166,5 +166,26 @@
     "lng": 119.416251,
     "place": "Yangzhou",
     "date": "10/04/2024"
+  },
+  {
+    "file": "images/coordinates_photos/乌沙安集海大峡谷.jpg",
+    "lat": 44.105602,
+    "lng": 85.10227,
+    "place": "乌沙安集海大峡谷",
+    "date": "10/06/2025"
+  },
+  {
+    "file": "images/coordinates_photos/肯斯瓦特水库.jpg",
+    "lat": 43.94144,
+    "lng": 85.977633,
+    "place": "肯斯瓦特水库",
+    "date": "10/05/2025"
+  },
+  {
+    "file": "images/coordinates_photos/赛里木湖.jpg",
+    "lat": 44.5035,
+    "lng": 81.14191,
+    "place": "赛里木湖",
+    "date": "10/07/2025"
   }
 ]
