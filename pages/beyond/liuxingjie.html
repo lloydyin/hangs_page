@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+		Strata by HTML5 UP
+		html5up.net | @ajlkn
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	-->
+<html>
+
+<head>
+    <base href="/hangs_page/">
+    <meta charset="utf-8" />
+    <!-- 适配移动端显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- 360°查看器核心CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+    <!-- 页面基础样式（仅保证查看器占满合理空间） -->
+    <style>
+        body { margin: 0; padding: 0; background: #f0f0f0; }
+        /* 360°查看器容器样式：占满屏幕宽度，高度设为70vh（可根据需求调整） */
+        #viewer { 
+            width: 100vw; 
+            height: 90vh; 
+            margin: 20px auto; 
+            border-radius: 4px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+
+    <link rel="shortcut icon" href="images/icon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+
+    <script type="importmap">
+        {
+           "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+                "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+            }
+        }
+    </script>
+</head>
+
+<body class="is-preload">
+    <div id="main">
+        <section id="three">
+            <div id="viewer""></div>
+            <script type="module">
+                import { Viewer } from '@photo-sphere-viewer/core';
+                const viewer = new Viewer({
+                    container: document.querySelector('#viewer'),
+                    panorama: 'images/photosphere/六星街, 伊宁.jpg',
+                    defaultYaw: Math.PI * 0,       // 初始水平角，单位：弧度
+                    defaultPitch: Math.PI * 0,               // 初始垂直角，单位：弧度
+                    defaultZoomLvl: 0             // 初始缩放等级（0-100）
+                }); 
+            </script>
+            <br>
+            <hr style="margin: 1px 0;">
+    </div>
+</body>
+
+</html>

@@ -42,20 +42,6 @@
     "date": "12/31/2024"
   },
   {
-    "file": "images/photosphere/Cliffs of Moher .jpg",
-    "lat": 52.972908333333336,
-    "lng": -9.430483333333333,
-    "place": "Cliffs of Moher ",
-    "date": "08/25/2025"
-  },
-  {
-    "file": "images/photosphere/Cliffs of Moher.jpg",
-    "lat": 52.973555555555556,
-    "lng": -9.43066111111111,
-    "place": "Cliffs of Moher",
-    "date": "08/25/2025"
-  },
-  {
     "file": "images/photosphere/Gaint Rock Bridge.jpg",
     "lat": 29.810152777777777,
     "lng": 35.4562,
@@ -68,6 +54,13 @@
     "lng": 31.13572222222222,
     "place": "Giza",
     "date": "12/31/2024"
+  },
+  {
+    "file": "images/photosphere/Huang Dao.jpg",
+    "lat": 35.667895111111115,
+    "lng": 119.88896866666667,
+    "place": "Huang Dao",
+    "date": "09/06/2025"
   },
   {
     "file": "images/photosphere/Hurghada.jpg",
@@ -89,13 +82,6 @@
     "lng": 35.69988333333333,
     "place": "Jordan",
     "date": "01/03/2025"
-  },
-  {
-    "file": "images/photosphere/Luxor Temple.jpg",
-    "lat": 25.699369444444443,
-    "lng": 32.63883333333333,
-    "place": "Luxor Temple",
-    "date": "12/29/2024"
   },
   {
     "file": "images/photosphere/Petra.jpg",
@@ -124,20 +110,6 @@
     "lng": 35.45430833333333,
     "place": "Small Rock Bridge",
     "date": "01/05/2025"
-  },
-  {
-    "file": "images/photosphere/Sultan AI Nasir Nuhammad Mosque.jpg",
-    "lat": 30.029275,
-    "lng": 31.26071388888889,
-    "place": "Sultan AI Nasir Nuhammad Mosque",
-    "date": "12/31/2024"
-  },
-  {
-    "file": "images/photosphere/Sunset of Cairo.jpg",
-    "lat": 30.028536111111112,
-    "lng": 31.259280555555556,
-    "place": "Sunset of Cairo",
-    "date": "12/31/2024"
   },
   {
     "file": "images/photosphere/The Burren.jpg",
@@ -176,31 +148,52 @@
   },
   {
     "file": "images/photosphere/Wadi Rum.2.jpg",
-    "lat": 29.527744444444444,
-    "lng": 35.4587,
-    "place": "Wadi Rum",
-    "date": "01/05/2025"
-  },
-  {
-    "file": "images/photosphere/Wadi Rum.3.jpg",
-    "lat": 29.527744444444444,
-    "lng": 35.4587,
-    "place": "Wadi Rum",
-    "date": "01/05/2025"
-  },
-  {
-    "file": "images/photosphere/Wadi Rum.4.jpg",
     "lat": 29.765030555555555,
     "lng": 35.47060555555556,
     "place": "Wadi Rum",
     "date": "01/05/2025"
   },
   {
-    "file": "images/photosphere/Wadi Rum.jpg",
-    "lat": 29.627311111111112,
-    "lng": 35.50028888888889,
-    "place": "Wadi Rum",
-    "date": "01/05/2025"
+    "file": "images/photosphere/乌沙安集海大峡谷.jpg",
+    "lat": 44.10487808333333,
+    "lng": 85.10029491666667,
+    "place": "乌沙安集海大峡谷",
+    "date": "10/06/2025"
+  },
+  {
+    "file": "images/photosphere/六星街, 伊宁.jpg",
+    "lat": 43.931325,
+    "lng": 81.30648333333333,
+    "place": "六星街, 伊宁",
+    "date": "10/08/2025"
+  },
+  {
+    "file": "images/photosphere/大巴扎, 乌鲁木齐,.jpg",
+    "lat": 43.77860583333333,
+    "lng": 87.61461,
+    "place": "大巴扎, 乌鲁木齐,",
+    "date": "10/04/2025"
+  },
+  {
+    "file": "images/photosphere/天山山脉.jpg",
+    "lat": 43.843158333333335,
+    "lng": 86.36068333333333,
+    "place": "天山山脉",
+    "date": "10/05/2025"
+  },
+  {
+    "file": "images/photosphere/工会驿站, 天山山脉.jpg",
+    "lat": 43.83847222222222,
+    "lng": 86.35288888888888,
+    "place": "工会驿站, 天山山脉",
+    "date": "10/05/2025"
+  },
+  {
+    "file": "images/photosphere/赛里木湖, 新疆.jpg",
+    "lat": 44.508267333333336,
+    "lng": 81.21980808333333,
+    "place": "赛里木湖, 新疆",
+    "date": "10/07/2025"
   },
   {
     "file": "images/photosphere/颐和园.jpg",
