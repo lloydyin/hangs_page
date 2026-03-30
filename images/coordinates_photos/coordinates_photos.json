@@ -175,6 +175,27 @@
     "date": "10/06/2025"
   },
   {
+    "file": "images/coordinates_photos/乌鲁木齐大巴扎.jpg",
+    "lat": 43.778519,
+    "lng": 87.614723,
+    "place": "乌鲁木齐大巴扎",
+    "date": "10/04/2025"
+  },
+  {
+    "file": "images/coordinates_photos/克拉玛依油田.jpg",
+    "lat": 45.614355,
+    "lng": 84.890465,
+    "place": "克拉玛依油田",
+    "date": "10/10/2025"
+  },
+  {
+    "file": "images/coordinates_photos/六星街.jpg",
+    "lat": 43.931414,
+    "lng": 81.306437,
+    "place": "六星街",
+    "date": "10/08/2025"
+  },
+  {
     "file": "images/coordinates_photos/肯斯瓦特水库.jpg",
     "lat": 43.94144,
     "lng": 85.977633,
@@ -186,6 +207,20 @@
     "lat": 44.5035,
     "lng": 81.14191,
     "place": "赛里木湖",
+    "date": "10/07/2025"
+  },
+  {
+    "file": "images/coordinates_photos/阿拉山口.jpg",
+    "lat": 45.202673,
+    "lng": 82.560262,
+    "place": "阿拉山口",
+    "date": "10/09/2025"
+  },
+  {
+    "file": "images/coordinates_photos/霍尔果斯.jpg",
+    "lat": 44.159802,
+    "lng": 80.415437,
+    "place": "霍尔果斯",
     "date": "10/07/2025"
   }
 ]
