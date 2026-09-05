@@ -1,275 +1,314 @@
 [
   {
     "file": "images/coordinates_photos/Abu Dhabi.jpg",
-    "lat": 24.49492634,
-    "lng": 54.37125643,
+    "lat": 24.494926333333336,
+    "lng": 54.37125638888889,
     "place": "Abu Dhabi",
-    "date": "09/05/2024"
+    "date": "2024-09",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Alexandria.jpg",
     "lat": 31.177930199722223,
-    "lng": 29.915375,
+    "lng": 29.915374999999997,
     "place": "Alexandria",
-    "date": "01/08/2025"
+    "date": "2025-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Aqaba.jpg",
     "lat": 29.698617,
-    "lng": 35.396393,
+    "lng": 35.396392999999996,
     "place": "Aqaba",
-    "date": "01/05/2025"
+    "date": "2025-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Cairo.jpg",
     "lat": 29.982474,
-    "lng": 31.133627,
+    "lng": 31.13362697222222,
     "place": "Cairo",
-    "date": "12/31/2024"
+    "date": "2024-12",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Cliffs of Moher.jpg",
-    "lat": 52.97105555555556,
-    "lng": -9.42863611111111,
+    "lat": 52.97105552777778,
+    "lng": -9.428636055555556,
     "place": "Cliffs of Moher",
-    "date": "08/25/2025"
+    "date": "2025-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Dead Sea.jpg",
-    "lat": 31.694522222222222,
+    "lat": 31.694522166666665,
     "lng": 35.57940277777778,
     "place": "Dead Sea",
-    "date": "01/02/2025"
+    "date": "2025-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Dublin.jpg",
     "lat": 53.352899,
     "lng": -6.261545,
     "place": "Dublin",
-    "date": "03/17/2024"
+    "date": "2024-03",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Galway.jpg",
-    "lat": 53.273808333333335,
+    "lat": 53.273808277777775,
     "lng": -9.055205555555556,
     "place": "Galway",
-    "date": "08/25/2025"
+    "date": "2025-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Hongkong.jpg",
     "lat": 22.293039,
-    "lng": 114.174247,
+    "lng": 114.17424694444445,
     "place": "Hongkong",
-    "date": "09/19/2024"
+    "date": "2024-09",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Hurghada.jpg",
     "lat": 27.259281,
-    "lng": 33.822751,
+    "lng": 33.822751000000004,
     "place": "Hurghada",
-    "date": "12/21/2024"
+    "date": "2024-12",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Louvre Abu Dhabi (Dragon--Warring States Period--China).jpg",
-    "lat": 24.53325,
+    "lat": 24.533249972222222,
     "lng": 54.39904722222222,
     "place": "Louvre Abu Dhabi (Dragon--Warring States Period--China)",
-    "date": "08/30/2025"
+    "date": "2025-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Petra.jpg",
     "lat": 30.338197699722222,
-    "lng": 35.430129299722225,
+    "lng": 35.43012929972222,
     "place": "Petra",
-    "date": "01/04/2025"
+    "date": "2025-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Rizhao.jpg",
-    "lat": 35.693575,
-    "lng": 119.36334444444445,
+    "lat": 35.693574972222216,
+    "lng": 119.36334438888888,
     "place": "Rizhao",
-    "date": "05/02/2023"
+    "date": "2023-05",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Sheikh Zayed Grand Mosque.jpg",
-    "lat": 24.41238611111111,
+    "lat": 24.41238608333333,
     "lng": 54.47600833333333,
     "place": "Sheikh Zayed Grand Mosque",
-    "date": "08/30/2025"
+    "date": "2025-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/The Burren.jpg",
-    "lat": 53.06919444444444,
+    "lat": 53.06919444444445,
     "lng": -9.35746111111111,
     "place": "The Burren",
-    "date": "08/25/2025"
+    "date": "2025-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Vladivostok.jpg",
     "lat": 43.113193511944445,
     "lng": 131.89163208,
     "place": "Vladivostok",
-    "date": "06/15/2019"
+    "date": "2019-06",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/WadiRum.jpg",
-    "lat": 29.6508429,
+    "lat": 29.650842899999997,
     "lng": 35.510607,
     "place": "WadiRum",
-    "date": "01/05/2025"
+    "date": "2025-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/Wicklow.jpg",
     "lat": 52.979968,
     "lng": -6.039164,
     "place": "Wicklow",
-    "date": "10/26/2024"
+    "date": "2024-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/三峡大坝.jpg",
     "lat": 30.815507,
     "lng": 111.018284,
     "place": "三峡大坝",
-    "date": "04/17/2026"
+    "date": "2026-04",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/上海.jpg",
-    "lat": 31.250771,
-    "lng": 121.502117,
+    "lat": 31.250770972222224,
+    "lng": 121.50211694444444,
     "place": "上海",
-    "date": "08/06/2026"
+    "date": "2026-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/乌沙安集海大峡谷.jpg",
-    "lat": 44.105602,
-    "lng": 85.10227,
+    "lat": 44.105601944444444,
+    "lng": 85.10226999999999,
     "place": "乌沙安集海大峡谷",
-    "date": "10/06/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/乌鲁木齐大巴扎.jpg",
-    "lat": 43.778519,
+    "lat": 43.778518999999996,
     "lng": 87.614723,
     "place": "乌鲁木齐大巴扎",
-    "date": "10/04/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/克拉玛依油田.jpg",
     "lat": 45.614355,
-    "lng": 84.890465,
+    "lng": 84.89046494444445,
     "place": "克拉玛依油田",
-    "date": "10/10/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/六星街.jpg",
-    "lat": 43.931414,
+    "lat": 43.93141397222222,
     "lng": 81.306437,
     "place": "六星街",
-    "date": "10/08/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/北京交通大学.jpg",
     "lat": 39.950847,
     "lng": 116.33131,
     "place": "北京交通大学",
-    "date": "06/20/2023"
+    "date": "2023-06",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/北京环球影城.jpg",
-    "lat": 39.85105,
-    "lng": 116.67106,
+    "lat": 39.85104994444445,
+    "lng": 116.67105994444445,
     "place": "北京环球影城",
-    "date": "09/09/2024"
+    "date": "2024-09",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/吉林.jpeg",
     "lat": 43.89307022083333,
-    "lng": 126.56932830805556,
+    "lng": 126.56932830805555,
     "place": "吉林",
-    "date": "10/04/2019"
+    "date": "2019-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/山西大同.jpg",
-    "lat": 40.110026,
-    "lng": 113.122877,
+    "lat": 40.110026000000005,
+    "lng": 113.12287699999999,
     "place": "山西大同",
-    "date": "01/01/2026"
+    "date": "2026-01",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/广州塔.jpg",
-    "lat": 23.113045,
+    "lat": 23.113044944444447,
     "lng": 113.318507,
     "place": "广州塔",
-    "date": "09/22/2024"
+    "date": "2024-09",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/扬州.jpg",
-    "lat": 32.410105,
-    "lng": 119.416251,
+    "lat": 32.41010497222222,
+    "lng": 119.41625094444446,
     "place": "扬州",
-    "date": "10/04/2024"
+    "date": "2024-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/河南省博物馆.jpg",
-    "lat": 34.789356,
-    "lng": 113.666639,
+    "lat": 34.78935597222222,
+    "lng": 113.66663894444444,
     "place": "河南省博物馆",
-    "date": "05/30/2026"
+    "date": "2026-05",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/红旗渠-青年洞.jpg",
     "lat": 36.352438,
     "lng": 113.759615,
     "place": "红旗渠-青年洞",
-    "date": "06/01/2026"
+    "date": "2026-06",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/肯斯瓦特水库.jpg",
     "lat": 43.94144,
-    "lng": 85.977633,
+    "lng": 85.97763294444445,
     "place": "肯斯瓦特水库",
-    "date": "10/05/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/赛里木湖.jpg",
     "lat": 44.5035,
-    "lng": 81.14191,
+    "lng": 81.14190994444445,
     "place": "赛里木湖",
-    "date": "10/07/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/重庆.jpg",
-    "lat": 29.566924,
+    "lat": 29.566923972222224,
     "lng": 106.575762,
     "place": "重庆",
-    "date": "04/22/2026"
+    "date": "2026-04",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/阿拉山口.jpg",
-    "lat": 45.202673,
-    "lng": 82.560262,
+    "lat": 45.202673000000004,
+    "lng": 82.56026194444445,
     "place": "阿拉山口",
-    "date": "10/09/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/霍尔果斯.jpg",
-    "lat": 44.159802,
-    "lng": 80.415437,
+    "lat": 44.159801944444446,
+    "lng": 80.41543694444445,
     "place": "霍尔果斯",
-    "date": "10/07/2025"
+    "date": "2025-10",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/青岛.jpg",
     "lat": 35.70545863963889,
     "lng": 119.92826769358334,
     "place": "青岛",
-    "date": "01/02/2025"
+    "date": "2023-08",
+    "datePrecision": "month"
   },
   {
     "file": "images/coordinates_photos/黄鹤楼.jpg",
-    "lat": 30.547371,
+    "lat": 30.547371000000002,
     "lng": 114.296515,
     "place": "黄鹤楼",
-    "date": "04/13/2026"
+    "date": "2026-04",
+    "datePrecision": "month"
   }
 ]
