@@ -28,10 +28,6 @@
 
     <link rel="shortcut icon" href="images/icon.ico">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
-
     <script type="importmap">
         {
            "imports": {
@@ -45,7 +41,7 @@
 <body class="is-preload">
     <div id="main">
         <section id="three">
-            <div id="viewer""></div>
+            <div id="viewer"></div>
             <script type="module">
                 import { Viewer } from '@photo-sphere-viewer/core';
                 const viewer = new Viewer({
@@ -58,6 +54,7 @@
             </script>
             <br>
             <hr style="margin: 1px 0;">
+        </section>
     </div>
 </body>
 

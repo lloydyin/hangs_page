@@ -16,4 +16,5 @@ loadHTML("education", "tables/education.html");
 loadHTML("experience", "tables/experience.html");
 loadHTML("projects", "tables/projects.html");
 loadHTML("publications", "tables/publications.html");
+loadHTML("timeline", "tables/timeline.html");
 loadHTML("games", "tables/games.html");

@@ -10,16 +10,7 @@
 		$body = $('body'),
 		$header = $('#header'),
 		$footer = $('#footer'),
-		$main = $('#main'),
-		settings = {
-
-			// Parallax background effect?
-				parallax: true,
-
-			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 20
-
-		};
+		$main = $('#main');
 
 	// Breakpoints.
 		breakpoints({
@@ -59,81 +50,33 @@
 			$footer.appendTo($header);
 		});
 
-	// Header.
-
-		// Parallax background.
-
-			// Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
-				if (browser.name == 'ie'
-				||	browser.mobile)
-					settings.parallax = false;
-
-			if (settings.parallax) {
-
-				breakpoints.on('<=medium', function() {
-
-					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
-
-				});
-
-				breakpoints.on('>medium', function() {
-
-					$header.css('background-position', 'left 0px');
-
-					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
-					});
-
-				});
-
-				$window.on('load', function() {
-					$window.triggerHandler('scroll');
-				});
-
-			}
-
-	// Main Sections: Two.
-
-		// Lightbox gallery.
-			$window.on('load', function() {
-
-				$('#two').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
-
-			});
-
 })(jQuery);
 document.addEventListener('DOMContentLoaded', function() {
     const thumbLinks = document.querySelectorAll('.work-item a.image.fit.thumb');
     const modal = document.getElementById('previewModal');
     const previewImg = document.getElementById('previewImage');
     const closeBtn = document.querySelector('.close-btn');
+    const previewContent = modal ? modal.querySelector('.preview-content') : null;
     let currentGroup = [];
     let currentIndex = 0;
 
-    // 创建加载指示器和导航按钮
-    const loading = document.createElement('div');
-    loading.className = 'loading';
-    const prevBtn = document.createElement('button');
-    prevBtn.className = 'nav-btn prev-btn';
-    prevBtn.innerHTML = '&lt;';
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'nav-btn next-btn';
-    nextBtn.innerHTML = '&gt;';
+    if (!thumbLinks.length || !modal || !previewImg || !closeBtn || !previewContent) return;
 
-    modal.querySelector('.preview-content').append(prevBtn, nextBtn, loading);
+    const loading = modal.querySelector('.loading') || document.createElement('div');
+    loading.className = 'loading';
+    if (!loading.parentElement) previewContent.appendChild(loading);
+
+    const prevBtn = modal.querySelector('.prev-btn') || document.createElement('button');
+    prevBtn.className = 'nav-btn prev-btn';
+    prevBtn.type = 'button';
+    prevBtn.innerHTML = '&lt;';
+    if (!prevBtn.parentElement) previewContent.appendChild(prevBtn);
+
+    const nextBtn = modal.querySelector('.next-btn') || document.createElement('button');
+    nextBtn.className = 'nav-btn next-btn';
+    nextBtn.type = 'button';
+    nextBtn.innerHTML = '&gt;';
+    if (!nextBtn.parentElement) previewContent.appendChild(nextBtn);
 
     // 图片预加载
     function preloadImages(urls) {
@@ -146,8 +89,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function openPreview(e) {
         e.preventDefault();
         const parentArticle = this.closest('[data-images]');
+        if (!parentArticle) return;
         currentGroup = JSON.parse(parentArticle.dataset.images);
-        currentIndex = currentGroup.indexOf(this.href);
+        if (!currentGroup.length) return;
+        currentIndex = currentGroup.indexOf(this.getAttribute('href'));
         
         // 如果当前链接不在数组中（可能data-images配置错误）
         if(currentIndex === -1) currentIndex = 0;
@@ -201,44 +146,45 @@ document.addEventListener('DOMContentLoaded', function() {
             if(e.key === 'ArrowRight') navigate(1);
         }
     });
-});
-let touchStartX = 0;
-let touchStartY = 0;
-let isScrolling = null;
 
-modal.addEventListener('touchstart', e => {
-    touchStartX = e.touches[0].clientX;
-    touchStartY = e.touches[0].clientY;
-    isScrolling = null; // 重置滚动判断
-}, { passive: true });
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let isScrolling = null;
 
-modal.addEventListener('touchmove', e => {
-    if (!isScrolling) {
-        const xDiff = Math.abs(e.touches[0].clientX - touchStartX);
-        const yDiff = Math.abs(e.touches[0].clientY - touchStartY);
-        isScrolling = yDiff > xDiff; // 判断是垂直滚动还是水平滑动
-    }
-    
-    if (!isScrolling) {
-        e.preventDefault(); // 阻止默认滚动行为
-        const deltaX = e.touches[0].clientX - touchStartX;
-        previewImg.style.transform = `translateX(${deltaX}px)`;
-    }
-}, { passive: false });
+    modal.addEventListener('touchstart', e => {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        isScrolling = null; // 重置滚动判断
+    }, { passive: true });
 
-modal.addEventListener('touchend', e => {
-    const touchEndX = e.changedTouches[0].clientX;
-    const deltaX = touchEndX - touchStartX;
-    const absDeltaX = Math.abs(deltaX);
-    
-    // 重置位置
-    previewImg.style.transform = '';
-    
-    if (!isScrolling && absDeltaX > 30) { // 有效滑动阈值
-        if (deltaX > 0) { // 向右滑动：上一张
-            navigate(-1);
-        } else { // 向左滑动：下一张
-            navigate(1);
+    modal.addEventListener('touchmove', e => {
+        if (!isScrolling) {
+            const xDiff = Math.abs(e.touches[0].clientX - touchStartX);
+            const yDiff = Math.abs(e.touches[0].clientY - touchStartY);
+            isScrolling = yDiff > xDiff; // 判断是垂直滚动还是水平滑动
         }
-    }
+
+        if (!isScrolling) {
+            e.preventDefault(); // 阻止默认滚动行为
+            const deltaX = e.touches[0].clientX - touchStartX;
+            previewImg.style.transform = `translateX(${deltaX}px)`;
+        }
+    }, { passive: false });
+
+    modal.addEventListener('touchend', e => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const deltaX = touchEndX - touchStartX;
+        const absDeltaX = Math.abs(deltaX);
+
+        // 重置位置
+        previewImg.style.transform = '';
+
+        if (!isScrolling && absDeltaX > 30) { // 有效滑动阈值
+            if (deltaX > 0) { // 向右滑动：上一张
+                navigate(-1);
+            } else { // 向左滑动：下一张
+                navigate(1);
+            }
+        }
+    });
 });

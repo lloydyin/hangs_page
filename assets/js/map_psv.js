@@ -1,6 +1,8 @@
 import { Viewer } from '@photo-sphere-viewer/core';
 
-const map = L.map('map').setView([20,150],1);
+const map = L.map('map', {
+	worldCopyJump: true
+});
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 	attribution:'&copy; OpenStreetMap contributors'
@@ -8,6 +10,22 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 
 const previewModal = document.getElementById('previewModal');
 let viewer = null;
+
+function fitMapToPhotoData(photoData){
+	const points = photoData
+		.filter(photo=>Number.isFinite(photo.lat) && Number.isFinite(photo.lng))
+		.map(photo=>[photo.lat, photo.lng]);
+
+	if(!points.length){
+		map.setView([35,65],3);
+		return;
+	}
+
+	map.fitBounds(L.latLngBounds(points),{
+		padding:[36,36],
+		maxZoom:3
+	});
+}
 
 // 点击背景关闭模态框
 previewModal.addEventListener('click', (e)=>{
@@ -40,6 +58,12 @@ fetch('images/photosphere/photosphere.json')
 			}
 		});
 	});
-	setTimeout(()=>map.invalidateSize(),100);
+	setTimeout(()=>{
+		map.invalidateSize();
+		fitMapToPhotoData(photoData);
+	},100);
 })
-.catch(err=>console.error('Error loading photo data:',err));
+.catch(err=>{
+	console.error('Error loading photo data:',err);
+	map.setView([35,65],3);
+});

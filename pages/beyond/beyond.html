@@ -11,15 +11,9 @@
     <title>Hang Yin's Homepage</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- GLightbox CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-
-    <!-- GLightbox JS -->
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css?v=20260905-8" />
     <link rel="shortcut icon" href="images/icon.ico">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 
@@ -42,12 +36,10 @@
             <h1><strong>Hang Yin (殷航)</strong><br /></h1>
             <nav class="sidebar-nav">
                 <ul class="vertical-links">
-                    <br />
-                    <a href="index.html"> Home</a><br />
-                    <a href="pages/research/research.html"> Research</a><br />
-                    <a href="pages/beyond/beyond.html"> Beyond Research</a><br />
-                    <a href="pages/beyond/photosphere/photosphere.html"> PhotoSphere</a><br />
-                    <a href="pages/rour.html"> Social</a><br />
+                    <li><a class="nav-primary" href="index.html">Home</a></li>
+                    <li><a class="nav-primary" href="pages/research/research.html">Research</a></li>
+                    <li><a class="nav-primary" href="pages/beyond/beyond.html" aria-current="page">Beyond Research</a></li>
+                    <li><a class="nav-child" href="pages/beyond/photosphere/photosphere.html">PhotoSphere</a></li>
                 </ul>
             </nav>
         </div>
@@ -72,12 +64,12 @@
             <h2>🗺️Footprints and Reflections</h2>
             <div id="map"></div>
             <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-            <script src="assets/js/map.js"></script>
+            <script src="assets/js/map.js?v=20260905-2"></script>
             <br>
             <hr style="margin: 1px 0;">
 
             <h2>🔮<a href="pages/beyond/photosphere/photosphere.html"> PhotoSphere</a> 👈Click!</h2>
-            <div id="viewer""></div>
+            <div id="viewer"></div>
 
             <script type="module">
                 import { Viewer } from '@photo-sphere-viewer/core';
@@ -106,13 +98,15 @@
                 </article>
                 <article class="col-6 col-12-xsmall work-item" data-images='[
                                 "images/photos/Geminids Meteor.jpg",
-								"images/photos/Orion.JPG",
-                                "images/photos/Pleiades.JPG",
+								"images/photos/Orion.jpg",
+                                "images/photos/Pleiades.jpg",
 								"images/photos/Milkway_Shandong.JPG",
-								"images/photos/Milkyway_Petra.JPG"
+								"images/photos/Milkyway_Petra.JPG",
+                                "images/photos/North America and NGC 6914 Complex.jpg",
+                                "images/photos/Andromeda Galaxy.jpg"
                                 ]'>
-                    <a href="images/photos/Milkyway_Petra.JPG" class="image fit thumb"><img
-                            src="images/photos/Orionf.JPG" alt="" /></a>
+                    <a href="images/photos/North America and NGC 6914 Complex.jpg" class="image fit thumb"><img
+                            src="images/photos/Orionf.jpg" alt="" /></a>
                     <h3>🔭Astrophotography</h3>
                     <p>To photograph stars, I once saved up carefully to buy a super-telephoto camera(<i>Nikon
                             P-1000</i>)—only to realize later that what I really needed was a large sensor.</p>
@@ -128,9 +122,9 @@
                     <div class="nav-hotzone next-zone"></div>
 
                     <!-- 导航按钮 -->
-                    <button class="nav-btn prev-btn">&lt;</button>
+                    <button class="nav-btn prev-btn" type="button">&lt;</button>
                     <img id="previewImage" src="">
-                    <button class="nav-btn next-btn">&gt;</button>
+                    <button class="nav-btn next-btn" type="button">&gt;</button>
                 </div>
             </div>
             <hr style="margin: 1px 0;">
@@ -138,6 +132,7 @@
             <h2>🎮Echoes of Play</h2>
             <div id="games"></div>
             <hr style="margin: 1px 0;">
+        </section>
     </div>
 
     <!-- Footer -->
@@ -165,11 +160,10 @@
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=20260905-4"></script>
     <script src="assets/js/loadings.js"></script>
 
 </body>

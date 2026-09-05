@@ -11,15 +11,9 @@
     <title>Hang Yin's Homepage</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- GLightbox CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-
-    <!-- GLightbox JS -->
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css?v=20260905-8" />
     <link rel="shortcut icon" href="images/icon.ico">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 
@@ -42,12 +36,10 @@
             <h1><strong>Hang Yin (殷航)</strong><br /></h1>
             <nav class="sidebar-nav">
                 <ul class="vertical-links">
-                    <br />
-                    <a href="index.html"> Home</a><br />
-                    <a href="pages/research/research.html"> Research</a><br />
-                    <a href="pages/beyond/beyond.html"> Beyond Research</a><br />
-                    <a href="pages/beyond/photoSphere/photoSphere.html"> PhotoSphere</a><br />
-                    <a href="pages/rour.html"> Social</a><br />
+                    <li><a class="nav-primary" href="index.html">Home</a></li>
+                    <li><a class="nav-primary" href="pages/research/research.html">Research</a></li>
+                    <li><a class="nav-primary" href="pages/beyond/beyond.html">Beyond Research</a></li>
+                    <li><a class="nav-child" href="pages/beyond/photosphere/photosphere.html" aria-current="page">PhotoSphere</a></li>
                 </ul>
             </nav>
         </div>
@@ -61,7 +53,7 @@
 
     <div id="main">
         <section id="three">
-            <h1>Photosphere</h1>
+            <h1>PhotoSphere</h1>
             👀 Click to explore the panorama!
 
             <div id="map"></div>
@@ -71,21 +63,13 @@
                 </div>
             </div>
 
-            <script type="importmap">
-                {
-                    "imports": {
-                        "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
-                        "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
-                    }
-                }
-            </script>
-
             <!-- Leaflet JS -->
             <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
             <!-- 自定义 JS -->
-            <script type="module" src="assets/js/map_psv.js"></script>
+            <script type="module" src="assets/js/map_psv.js?v=20260905-2"></script>
             <hr>
+        </section>
     </div>
 
     <!-- Footer -->
@@ -113,12 +97,10 @@
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/loadings.js"></script>
+    <script src="assets/js/main.js?v=20260905-4"></script>
 
 </body>
 
