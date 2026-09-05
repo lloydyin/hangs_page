@@ -1,6 +1,6 @@
 [
   {
-    "file": "images/coordinates_photos/Abu Dhabi.JPG",
+    "file": "images/coordinates_photos/Abu Dhabi.jpg",
     "lat": 24.49492634,
     "lng": 54.37125643,
     "place": "Abu Dhabi",
@@ -14,14 +14,14 @@
     "date": "01/08/2025"
   },
   {
-    "file": "images/coordinates_photos/Aqaba.JPG",
+    "file": "images/coordinates_photos/Aqaba.jpg",
     "lat": 29.698617,
     "lng": 35.396393,
     "place": "Aqaba",
     "date": "01/05/2025"
   },
   {
-    "file": "images/coordinates_photos/Cairo.JPG",
+    "file": "images/coordinates_photos/Cairo.jpg",
     "lat": 29.982474,
     "lng": 31.133627,
     "place": "Cairo",
@@ -35,14 +35,14 @@
     "date": "08/25/2025"
   },
   {
-    "file": "images/coordinates_photos/Dead Sea.JPG",
+    "file": "images/coordinates_photos/Dead Sea.jpg",
     "lat": 31.694522222222222,
     "lng": 35.57940277777778,
     "place": "Dead Sea",
     "date": "01/02/2025"
   },
   {
-    "file": "images/coordinates_photos/Dublin.JPG",
+    "file": "images/coordinates_photos/Dublin.jpg",
     "lat": 53.352899,
     "lng": -6.261545,
     "place": "Dublin",
@@ -56,14 +56,14 @@
     "date": "08/25/2025"
   },
   {
-    "file": "images/coordinates_photos/Hongkong.JPG",
+    "file": "images/coordinates_photos/Hongkong.jpg",
     "lat": 22.293039,
     "lng": 114.174247,
     "place": "Hongkong",
     "date": "09/19/2024"
   },
   {
-    "file": "images/coordinates_photos/Hurghada.JPG",
+    "file": "images/coordinates_photos/Hurghada.jpg",
     "lat": 27.259281,
     "lng": 33.822751,
     "place": "Hurghada",
@@ -168,14 +168,14 @@
     "date": "10/08/2025"
   },
   {
-    "file": "images/coordinates_photos/北京交通大学.JPG",
+    "file": "images/coordinates_photos/北京交通大学.jpg",
     "lat": 39.950847,
     "lng": 116.33131,
     "place": "北京交通大学",
     "date": "06/20/2023"
   },
   {
-    "file": "images/coordinates_photos/北京环球影城.JPG",
+    "file": "images/coordinates_photos/北京环球影城.jpg",
     "lat": 39.85105,
     "lng": 116.67106,
     "place": "北京环球影城",
@@ -196,7 +196,7 @@
     "date": "01/01/2026"
   },
   {
-    "file": "images/coordinates_photos/广州塔.JPG",
+    "file": "images/coordinates_photos/广州塔.jpg",
     "lat": 23.113045,
     "lng": 113.318507,
     "place": "广州塔",
@@ -259,7 +259,7 @@
     "date": "10/07/2025"
   },
   {
-    "file": "images/coordinates_photos/青岛.JPG",
+    "file": "images/coordinates_photos/青岛.jpg",
     "lat": 35.70545863963889,
     "lng": 119.92826769358334,
     "place": "青岛",
